@@ -45,7 +45,7 @@ application/x-www-form-urlencoded
 |cPosBits|Int|阶段标识，头包传1，过程传2， 尾包传4，单次传7|
 |iOffset|Int|音频数据偏移量，单位为字节|  
 
-注意；如果cPosBits传7，那么单包最大为
+注意：所有格式均只支持单通道、16kHz、16bit的音频  
 
 ## 5.结果content-type
 
